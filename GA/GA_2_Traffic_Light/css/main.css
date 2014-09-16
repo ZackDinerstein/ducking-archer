@@ -1,0 +1,59 @@
+.trafficlight {
+background: black;
+width: 170px;
+height: 400px;
+float: left;
+}
+
+.red {
+background: red;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: 20px;
+left: 35px;
+}
+
+.yellow {
+background: yellow;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: 145px;
+left: 35px;
+}
+
+.green {
+background: green;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: 270px;
+left: 35px;
+ }
+
+.button {
+float: left;
+width: 100px;
+text-align: right;
+padding-left: 40px;
+text-align: center;
+text-decoration: none;
+font-family: Helvetica;
+}
+
+
+ 
+.click {
+color: white;
+padding: 50px;
+margin: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-style: solid;
+border-radius: 25px;
+background-color: gray;
+}
