@@ -3,25 +3,20 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<script type="text/javascript" src="js/application.js"></script>
-	</head>
-<title>Traffic Light</title>
-
+	<title>Traffic Light</title>
+</head>
 <body>
+	<div class="trafficlight">
+		<div id="green" class="light"></div>
+		<div id="yellow" class="light"></div>
+		<div id="red" class="light"></div>
+	</div>
 
-<div class="trafficlight">
-  <div class="red"></div>
-  <div class="yellow"></div>
-  <div class="green"></div>
-</div>
 
-<div class="button">
-	<a href="" class="button click">STOP</a>
- 
-	<a href="" class="button click">CAUTION</a>
- 
-	<a href="" class="button click">GO</a>
-</div>
-
+	<div id="menu">
+  		<p class="button" onclick="buttonClick('green')">GO</p>
+  		<p class="button" onclick="buttonClick('yellow')">CAUTION</p>
+  		<p class="button" onclick="buttonClick('red')">STOP</p>
+	</div>
 </body>
-
 </html>
