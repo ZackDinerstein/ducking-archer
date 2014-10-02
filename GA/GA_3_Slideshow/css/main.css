@@ -1,0 +1,54 @@
+body {
+	font-family: helvetica;
+}
+
+#mainImage img {
+	width: 100%;
+}
+
+#mainSlide {
+	width:100px; 
+	height:600px;
+	background-color: grey;
+}
+
+#slides {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	background-color: grey;
+}
+
+#controls {
+	position: relative;
+	bottom: 0px;
+}
+
+.Slide {
+	display: inline-block;
+	width: 80px;
+	height:80px;
+	border: 2px solid white;
+	cursor: pointer;
+	overflow: hidden;
+	border: 1px white;
+}
+
+.slide:hover {
+	opacity: .7;
+}
+
+.slide img {
+	height: 80px;
+}
+
+.button {
+	background-color: black;
+	padding: 20px;
+	border:  1px sol white;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: .7;
+}
