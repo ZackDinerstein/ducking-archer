@@ -1,30 +1,31 @@
 body {
 	font-family: helvetica;
+	color: white;
 }
 
 #mainImage img {
-	width: 100%;
+	width: 600px;
+	height: 600px;
 }
 
 #mainSlide {
 	width:100px; 
 	height:600px;
-	background-color: grey;
 }
 
 #slides {
-	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: grey;
+	padding-bottom: 40px;
 }
 
 #controls {
 	position: relative;
 	bottom: 0px;
+	padding-bottom: 40px;
 }
 
-.Slide {
+.slide {
 	display: inline-block;
 	width: 80px;
 	height:80px;
@@ -43,7 +44,7 @@ body {
 }
 
 .button {
-	background-color: black;
+	background-color: red;
 	padding: 20px;
 	border:  1px sol white;
 	cursor: pointer;
